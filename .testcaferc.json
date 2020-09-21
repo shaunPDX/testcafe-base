@@ -1,0 +1,19 @@
+{
+    "browsers": ["chrome","firefox","safari","opera"],
+    "src": ["tests/"],
+    "reporter": [
+      {
+        "name": "spec"
+      }
+    ],
+    "color": true,
+    "concurrency": 1,
+    "quarantineMode": true,
+    "screenshotPath": "reports/screenshots/",
+    "selectorTimeout": 3000,
+    "assertionTimeout": 3000,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true,
+    "takeScreenshotsOnFails": true,
+    "pageLoadTimeout": 5000
+  }
