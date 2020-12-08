@@ -4,7 +4,7 @@
   "description": "A project which I can use as a base for TestCafe automation and develop new POC work. Also to be used for trying new plugins.",
   "main": "index.js",
   "scripts": {
-    "test:ci": "./node_modules/.bin/testcafe chrome:headless",
+    "test": "./node_modules/.bin/testcafe chrome:headless",
     "testcafe": "./node_modules/.bin/testcafe",
     "testcafe:live": "./node_modules/.bin/testcafe --live"
   },
